@@ -4,6 +4,8 @@
       <w>chromedriver</w>
       <w>fileitem</w>
       <w>fileupload</w>
+      <w>resumedetails</w>
+      <w>sqlconnection</w>
       <w>webdrivers</w>
     </words>
   </dictionary>
