@@ -1,0 +1,174 @@
+{
+   "checksum": "9cff3aa769cd38654607442e1d5919d0",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13008119088000000",
+               "guid": "83f4bef4-6bf9-47c6-9eb0-104ea3080f99",
+               "id": "6",
+               "name": "Internal FB",
+               "type": "url",
+               "url": "https://our.intern.facebook.com/intern/login?next=https://our.intern.facebook.com/intern/"
+            }, {
+               "date_added": "13008118175000000",
+               "guid": "412e75cb-ecf4-4ce2-8343-8a31ea31999a",
+               "id": "7",
+               "name": "Webmail",
+               "type": "url",
+               "url": "https://fburl.com/MailBookmark"
+            }, {
+               "date_added": "13238116680000000",
+               "guid": "40606ea2-9b2b-45d3-956b-6fb235803d5e",
+               "id": "8",
+               "name": "Onboarding Plan",
+               "type": "url",
+               "url": "https://fburl.com/obp"
+            }, {
+               "date_added": "13014757399000000",
+               "guid": "eb661a7c-3e5d-4ce8-89ec-042e4480a317",
+               "id": "9",
+               "name": "Tasks",
+               "type": "url",
+               "url": "https://fburl.com/TasksBookmark"
+            }, {
+               "date_added": "13008118094000000",
+               "guid": "0cab730f-03dc-4b53-a575-bf50966b8b3c",
+               "id": "10",
+               "name": "Company Wiki",
+               "type": "url",
+               "url": "https://fburl.com/WikiBookmark"
+            }, {
+               "date_added": "13174506380000000",
+               "guid": "2682958b-7a5e-4fd4-bfa0-7711bf105f2d",
+               "id": "11",
+               "name": "Help@ Portal",
+               "type": "url",
+               "url": "https://fburl.com/help"
+            }, {
+               "date_added": "13008118319000000",
+               "guid": "f2deccfe-65ec-479e-89bf-358c2cc81b26",
+               "id": "12",
+               "name": "Workplace",
+               "type": "url",
+               "url": "https://fburl.com/WorkplaceBookmark"
+            }, {
+               "date_added": "13035093005000000",
+               "guid": "4335aef1-b317-4412-8d5c-ec3cc92627bb",
+               "id": "13",
+               "name": "GMS Hub",
+               "type": "url",
+               "url": "https://fburl.com/GMSHubBookmark"
+            }, {
+               "date_added": "13014754393000000",
+               "guid": "a2dd5e2e-e164-40a5-a9df-4e8aa7a11768",
+               "id": "14",
+               "name": "Salesforce",
+               "type": "url",
+               "url": "https://fburl.com/SalesforceBookmark"
+            }, {
+               "date_added": "13008118497000000",
+               "guid": "0fa8fdc8-276b-4ccb-be9f-76ca3cdf06df",
+               "id": "15",
+               "name": "Login Approvals",
+               "type": "url",
+               "url": "https://fburl.com/ApprovalsBookmark"
+            }, {
+               "date_added": "13008119088000000",
+               "guid": "7b4d2c03-6b58-4974-878a-0f1f33804c57",
+               "id": "16",
+               "name": "Calendar Tool",
+               "type": "url",
+               "url": "https://fburl.com/MeetingToolBookmark"
+            }, {
+               "date_added": "13008119126000000",
+               "guid": "9cff127a-69da-46e8-b937-04d95ab98118",
+               "id": "17",
+               "name": "Workday.com",
+               "type": "url",
+               "url": "https://fburl.com/WorkdayBookmark"
+            }, {
+               "date_added": "13008118643000000",
+               "guid": "4db6cc9d-a0c2-4bc9-9b94-53cbc324bcd2",
+               "id": "18",
+               "name": "Dropbox.com",
+               "type": "url",
+               "url": "https://fburl.com/DropboxBookmark"
+            }, {
+               "date_added": "13008118718000000",
+               "guid": "75576bd9-4352-4609-91e4-cc43a5ca9e10",
+               "id": "19",
+               "name": "Printers",
+               "type": "url",
+               "url": "https://fburl.com/PrintersBookmark"
+            }, {
+               "date_added": "13008118832000000",
+               "guid": "b6043508-557a-4f29-9209-1e379d0fb5a0",
+               "id": "20",
+               "name": "Blue Jeans Network",
+               "type": "url",
+               "url": "https://fburl.com/BlueJeansBookmark"
+            }, {
+               "date_added": "13038526717000000",
+               "guid": "db523222-fd43-415b-bccc-41ee745c2823",
+               "id": "21",
+               "name": "People Portal",
+               "type": "url",
+               "url": "https://fburl.com/LifeBookmark"
+            }, {
+               "date_added": "13081534187000000",
+               "guid": "3967c06f-454c-4938-b64d-6be48d975a45",
+               "id": "22",
+               "name": "Shuttle Timetable",
+               "type": "url",
+               "url": "https://fburl.com/shuttletimetable"
+            }, {
+               "date_added": "13118284025000000",
+               "guid": "6f71488f-a8c4-4be4-9c31-b96243e03c06",
+               "id": "23",
+               "name": "Concur",
+               "type": "url",
+               "url": "https://fburl.com/concur"
+            }, {
+               "date_added": "13152649851000000",
+               "guid": "3b656438-9aab-4aae-8dff-d218224b095a",
+               "id": "24",
+               "name": "Discovery",
+               "type": "url",
+               "url": "https://our.intern.facebook.com/intern/discovery"
+            } ],
+            "date_added": "13239728159033373",
+            "date_modified": "0",
+            "guid": "594d1d0b-e83c-42e3-bff6-5b664d8cd627",
+            "id": "5",
+            "name": "Facebook",
+            "type": "folder"
+         } ],
+         "date_added": "13239728158794090",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks Bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13239728158794098",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13239728158794101",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

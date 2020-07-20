@@ -1,0 +1,23 @@
+{
+   "background": {
+      "scripts": [ "lib/chrome_background.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "css/NuxBox.css", "css/ProTip.css" ],
+      "js": [ "lib/contentscript.js" ],
+      "matches": [ "https://github.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "This extends GitHub.com for Facebook Projects",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwj/VboB3CAv5iluzG8U/hH2tkTPcs5rJHDNhs85xQ44e5nWByrFF0keyf30/qGW4XoF47yE4WOUFYS+Zoip2+vEZK5OHvXYVFiwp8DSjjl1/JW1n8b4HQ0lsTHD6Qc1a3HtbvJat7uNxACz/z7Pn3xii49nEZB2W42OoZ1dZIWLGT8j1V+vaf4wU3fm5isHVHVcrnUYcA+zifZ8U706qdZM1MBrOMQWLb7EH14gj7tZpmNR4mrENV6KMvDYLxHe0S0JO8ar/YAz4QDV9uh/FmPiBsjv5Ob+xP2ISyGALt8FtCG20DeTynE9kyquilwF8WZ0nZSYFGMAV+cN/GKunjQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "60.0",
+   "name": "FaceHub",
+   "options_ui": {
+      "page": "static/chrome_options.html"
+   },
+   "permissions": [ "tabs", "webRequest", "webRequestBlocking", "storage", "https://github.com/*", "https://raw.githubusercontent.com/*", "https://www.facebook.com/ajax/flash/user_info.php" ],
+   "update_url": "https://www.internalfb.com/intern/browser_extensions/chrome/update.xml",
+   "version": "2.2.10.3",
+   "web_accessible_resources": [ "images/*" ]
+}

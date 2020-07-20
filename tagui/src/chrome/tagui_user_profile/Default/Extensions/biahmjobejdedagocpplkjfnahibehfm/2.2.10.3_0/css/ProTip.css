@@ -1,0 +1,12 @@
+.facehubProTip {
+  border-top: 1px solid #dfe2e5;
+  background-color: #fafbfc;
+  padding: 15px;
+  text-align: center;
+}
+
+.facehubProTip img {
+  display: inline-block;
+  padding-right: 2px;
+  vertical-align: text-top;
+}

@@ -1,0 +1,25 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "https://*.facebook.com/*", "https://*.workplace.com/*" ]
+   } ],
+   "description": "Share your screen in video calls on Workplace",
+   "externally_connectable": {
+      "matches": [ "https://*.facebook.com/*", "https://*.workplace.com/*" ]
+   },
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArZM7cVT+SvtFqPXR56ic5ddrjRVJOZ7fkPHBYmTBwGOlllidjuuBpJB9rzDD4TC+nkkg6DWCRq+jaSnT46mw/jLw32FZhnlgQyseTJXLrEuKNnd6qSVlY8Efq1ga6zGYUze3k8IFeWCCiy3O4vw2OqVWNOSFckIHtmd1Gj2oW4u6QExpkXBW5R68uTzqcmd7CN2yZ5Y73XVuWIF+GZyD8C+J038G4vxE/2QGMUPn27LXUh/8duzgj0SDq00gjNjpr6hKMYvWIn0wJ1Erw/+rQanWErUGp6RWYXS++ugwzRSQFNjAgICpWuIcLRYofeRVVSyXoWwWDwTUibuQP41tlwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "34",
+   "name": "Workplace Screen Sharing",
+   "permissions": [ "desktopCapture", "notifications", "https://*.facebook.com/", "https://*.workplace.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.1"
+}

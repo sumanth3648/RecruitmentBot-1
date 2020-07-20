@@ -1,0 +1,26 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "quickdial_background.js" ]
+   },
+   "browser_action": {
+      "default_title": "Click to open QuickDial"
+   },
+   "content_scripts": [  ],
+   "description": "For use on Facebook Intern QuickDial",
+   "externally_connectable": {
+      "matches": [  ]
+   },
+   "icons": {
+      "128": "qd-128.png",
+      "16": "qd-16.png",
+      "48": "qd-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh85r8TGHWoo+ZSWxwhyrhy5teHBW2US4evOWjc5ivVaTH7C5fvOYMP6X55IrS4znxV9qj6sQ/mPCF45wn3LeQ+RuJxeIOpUbU+xVRvcVS/w6IVURIJ/5s6XzGjzX+QXHk4xzfscdSJtZWdTbwTCYYvVGHCRlmSdKuM9on4iv0jz34YUB3mEU3Z+hcagQBEQaDdUSkuw0PEGF1DlDgp4CPQQxbxvFvZw+rFCNPHzg8EhwsUsBMT2QBH9HJup5onocwigKGPjT7UTyrLlXEr9Sgj8/Q9dGZbie1+nckdpmASnCKzyKjMzWQKTvUpv+iUoqYdKQnZzekJ1gnOkFHijo6QIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "62",
+   "name": "QuickDial",
+   "permissions": [ "webRequest", "webRequestBlocking", "*://*.bluejeans.com/*", "*://bluejeans.com/*", "*://*.facebook.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.6"
+}

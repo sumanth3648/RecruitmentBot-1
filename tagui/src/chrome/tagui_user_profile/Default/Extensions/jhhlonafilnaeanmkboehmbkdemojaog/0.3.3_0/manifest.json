@@ -1,0 +1,17 @@
+{
+   "browser_action": {
+      "default_icon": "1_1.png",
+      "default_popup": "index.html",
+      "default_title": "One On One Extension"
+   },
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "description": "Add 1:1 topics from sites you visit to Manager Landing or the 1:1 Tool. ",
+   "homepage_url": "https://fb.workplace.com/groups/381959089072312/",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxwZPnc0rdArt+ye/2NI4LCMQQVpFvMipgU+nRzBOFsiHDqEkXs5igKkZHZTBmLrzULURrDn/Zq8rQEJz+sgRPN6V/zyCaXVgz7gedRrrXnw9LOZ+DtKKOihWhabpy6iwFY5/uEVMskB33SPoA9Q6MysJE+iy91pM2+LQOxwiWNfcG5fKT6S/dCzbckCLnCJjg5WN602aXmwON6lbGqp5AhuJFIXFAFcyhKjL3tSdzkZVBLdSfekyh5Pc5zuAwtFCwhP2Rx+PRIY93vv02ccxMiNb9J2r2DsIYJyy1TFC7aZtCeOJs0D3P4zG4kg70yO/dh/2J1whreFWz+BC+CDXhwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "43",
+   "name": "1:1",
+   "permissions": [ "storage", "*://*.facebook.com/", "*://*.internalfb.com/", "tabs", "webRequest" ],
+   "update_url": "https://our.intern.facebook.com/intern/browser_extensions/chrome/update.xml/",
+   "version": "0.3.3"
+}

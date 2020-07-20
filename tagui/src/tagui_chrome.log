@@ -1,0 +1,413 @@
+[tagui] START  - listening for inputs
+
+[tagui] INPUT  - 
+[1] {"id":1,"method":"Page.setDownloadBehavior","params":{"behavior":"allow","downloadPath":"/Users/dineshgovind/PycharmProjects/RecruitmentBot"}}
+[tagui] OUTPUT - 
+[1] {"id":1,"result":{}}
+
+[tagui] INPUT  - 
+[2] {"id":2,"method":"Page.navigate","params":{"url":"https://www.dice.com/dashboard/login"}}
+[tagui] OUTPUT - 
+[2] {"id":2,"result":{"frameId":"19320C3ADB609C11E1BB50AF2FDF1333","loaderId":"DDAA55795F97359C48A62A43119B866E"}}
+
+[tagui] INPUT  - 
+[3] {"id":3,"method":"Runtime.evaluate","params":{"expression":"document.title"}}
+[tagui] OUTPUT - 
+[3] {"id":3,"result":{"result":{"type":"string","value":"Sign In"}}}
+
+[tagui] INPUT  - 
+[4] {"id":4,"method":"Runtime.evaluate","params":{"expression":"document.querySelectorAll('email').length"}}
+[tagui] OUTPUT - 
+[4] {"id":4,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[5] {"id":5,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[@id=\"email\"]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[5] {"id":5,"result":{"result":{"type":"number","value":1,"description":"1"}}}
+
+[tagui] INPUT  - 
+[6] {"id":6,"method":"Runtime.evaluate","params":{"expression":"document.querySelectorAll('email').length"}}
+[tagui] OUTPUT - 
+[6] {"id":6,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[7] {"id":7,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[@id=\"email\"]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[7] {"id":7,"result":{"result":{"type":"number","value":1,"description":"1"}}}
+
+[tagui] INPUT  - 
+[8] {"id":8,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[@id=\"email\"]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotItem(0).focus()"}}
+[tagui] OUTPUT - 
+[8] {"id":8,"result":{"result":{"type":"undefined"}}}
+
+[tagui] INPUT  - 
+[9] {"id":9,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"s"}}
+[tagui] OUTPUT - 
+[9] {"id":9,"result":{}}
+
+[tagui] INPUT  - 
+[10] {"id":10,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"r"}}
+[tagui] OUTPUT - 
+[10] {"id":10,"result":{}}
+
+[tagui] INPUT  - 
+[11] {"id":11,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"n"}}
+[tagui] OUTPUT - 
+[11] {"id":11,"result":{}}
+
+[tagui] INPUT  - 
+[12] {"id":12,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"t"}}
+[tagui] OUTPUT - 
+[12] {"id":12,"result":{}}
+
+[tagui] INPUT  - 
+[13] {"id":13,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"1"}}
+[tagui] OUTPUT - 
+[13] {"id":13,"result":{}}
+
+[tagui] INPUT  - 
+[14] {"id":14,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"9"}}
+[tagui] OUTPUT - 
+[14] {"id":14,"result":{}}
+
+[tagui] INPUT  - 
+[15] {"id":15,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"1"}}
+[tagui] OUTPUT - 
+[15] {"id":15,"result":{}}
+
+[tagui] INPUT  - 
+[16] {"id":16,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"@"}}
+[tagui] OUTPUT - 
+[16] {"id":16,"result":{}}
+
+[tagui] INPUT  - 
+[17] {"id":17,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"g"}}
+[tagui] OUTPUT - 
+[17] {"id":17,"result":{}}
+
+[tagui] INPUT  - 
+[18] {"id":18,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"m"}}
+[tagui] OUTPUT - 
+[18] {"id":18,"result":{}}
+
+[tagui] INPUT  - 
+[19] {"id":19,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"a"}}
+[tagui] OUTPUT - 
+[19] {"id":19,"result":{}}
+
+[tagui] INPUT  - 
+[20] {"id":20,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"i"}}
+[tagui] OUTPUT - 
+[20] {"id":20,"result":{}}
+
+[tagui] INPUT  - 
+[21] {"id":21,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"l"}}
+[tagui] OUTPUT - 
+[21] {"id":21,"result":{}}
+
+[tagui] INPUT  - 
+[22] {"id":22,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"."}}
+[tagui] OUTPUT - 
+[22] {"id":22,"result":{}}
+
+[tagui] INPUT  - 
+[23] {"id":23,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"c"}}
+[tagui] OUTPUT - 
+[23] {"id":23,"result":{}}
+
+[tagui] INPUT  - 
+[24] {"id":24,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"o"}}
+[tagui] OUTPUT - 
+[24] {"id":24,"result":{}}
+
+[tagui] INPUT  - 
+[25] {"id":25,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"m"}}
+[tagui] OUTPUT - 
+[25] {"id":25,"result":{}}
+
+[tagui] INPUT  - 
+[26] {"id":26,"method":"Runtime.evaluate","params":{"expression":"document.querySelectorAll('password').length"}}
+[tagui] OUTPUT - 
+[26] {"id":26,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[27] {"id":27,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[@id=\"password\"]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[27] {"id":27,"result":{"result":{"type":"number","value":1,"description":"1"}}}
+
+[tagui] INPUT  - 
+[28] {"id":28,"method":"Runtime.evaluate","params":{"expression":"document.querySelectorAll('password').length"}}
+[tagui] OUTPUT - 
+[28] {"id":28,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[29] {"id":29,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[@id=\"password\"]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[29] {"id":29,"result":{"result":{"type":"number","value":1,"description":"1"}}}
+
+[tagui] INPUT  - 
+[30] {"id":30,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[@id=\"password\"]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotItem(0).focus()"}}
+[tagui] OUTPUT - 
+[30] {"id":30,"result":{"result":{"type":"undefined"}}}
+
+[tagui] INPUT  - 
+[31] {"id":31,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"a"}}
+[tagui] OUTPUT - 
+[31] {"id":31,"result":{}}
+
+[tagui] INPUT  - 
+[32] {"id":32,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"n"}}
+[tagui] OUTPUT - 
+[32] {"id":32,"result":{}}
+
+[tagui] INPUT  - 
+[33] {"id":33,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"u"}}
+[tagui] OUTPUT - 
+[33] {"id":33,"result":{}}
+
+[tagui] INPUT  - 
+[34] {"id":34,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"c"}}
+[tagui] OUTPUT - 
+[34] {"id":34,"result":{}}
+
+[tagui] INPUT  - 
+[35] {"id":35,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"h"}}
+[tagui] OUTPUT - 
+[35] {"id":35,"result":{}}
+
+[tagui] INPUT  - 
+[36] {"id":36,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"u"}}
+[tagui] OUTPUT - 
+[36] {"id":36,"result":{}}
+
+[tagui] INPUT  - 
+[37] {"id":37,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"r"}}
+[tagui] OUTPUT - 
+[37] {"id":37,"result":{}}
+
+[tagui] INPUT  - 
+[38] {"id":38,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"i"}}
+[tagui] OUTPUT - 
+[38] {"id":38,"result":{}}
+
+[tagui] INPUT  - 
+[39] {"id":39,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"1"}}
+[tagui] OUTPUT - 
+[39] {"id":39,"result":{}}
+
+[tagui] INPUT  - 
+[40] {"id":40,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"9"}}
+[tagui] OUTPUT - 
+[40] {"id":40,"result":{}}
+
+[tagui] INPUT  - 
+[41] {"id":41,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"9"}}
+[tagui] OUTPUT - 
+[41] {"id":41,"result":{}}
+
+[tagui] INPUT  - 
+[42] {"id":42,"method":"Input.dispatchKeyEvent","params":{"type":"char","text":"8"}}
+[tagui] OUTPUT - 
+[42] {"id":42,"result":{}}
+
+[tagui] INPUT  - 
+[43] {"id":43,"method":"Runtime.evaluate","params":{"expression":"document.querySelectorAll('signin').length"}}
+[tagui] OUTPUT - 
+[43] {"id":43,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[44] {"id":44,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[@id=\"signin\"]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[44] {"id":44,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[45] {"id":45,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[contains(@id,\"signin\")]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[45] {"id":45,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[46] {"id":46,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[@name=\"signin\"]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[46] {"id":46,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[47] {"id":47,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[contains(@name,\"signin\")]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[47] {"id":47,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[48] {"id":48,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[@class=\"signin\"]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[48] {"id":48,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[49] {"id":49,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[contains(@class,\"signin\")]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[49] {"id":49,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[50] {"id":50,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[@title=\"signin\"]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[50] {"id":50,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[51] {"id":51,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[contains(@title,\"signin\")]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[51] {"id":51,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[52] {"id":52,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[@aria-label=\"signin\"]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[52] {"id":52,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[53] {"id":53,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[contains(@aria-label,\"signin\")]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[53] {"id":53,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[54] {"id":54,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[text()=\"signin\"]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[54] {"id":54,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[55] {"id":55,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[contains(text(),\"signin\")]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[55] {"id":55,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[56] {"id":56,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[@href=\"signin\"]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[56] {"id":56,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[57] {"id":57,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[contains(@href,\"signin\")]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[57] {"id":57,"result":{"result":{"type":"number","value":1,"description":"1"}}}
+
+[tagui] INPUT  - 
+[58] {"id":58,"method":"Runtime.evaluate","params":{"expression":"document.querySelectorAll('signin').length"}}
+[tagui] OUTPUT - 
+[58] {"id":58,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[59] {"id":59,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[@id=\"signin\"]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[59] {"id":59,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[60] {"id":60,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[contains(@id,\"signin\")]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[60] {"id":60,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[61] {"id":61,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[@name=\"signin\"]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[61] {"id":61,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[62] {"id":62,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[contains(@name,\"signin\")]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[62] {"id":62,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[63] {"id":63,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[@class=\"signin\"]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[63] {"id":63,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[64] {"id":64,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[contains(@class,\"signin\")]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[64] {"id":64,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[65] {"id":65,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[@title=\"signin\"]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[65] {"id":65,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[66] {"id":66,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[contains(@title,\"signin\")]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[66] {"id":66,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[67] {"id":67,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[@aria-label=\"signin\"]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[67] {"id":67,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[68] {"id":68,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[contains(@aria-label,\"signin\")]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[68] {"id":68,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[69] {"id":69,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[text()=\"signin\"]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[69] {"id":69,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[70] {"id":70,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[contains(text(),\"signin\")]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[70] {"id":70,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[71] {"id":71,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[@href=\"signin\"]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[71] {"id":71,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+
+[tagui] INPUT  - 
+[72] {"id":72,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[contains(@href,\"signin\")]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength"}}
+[tagui] OUTPUT - 
+[72] {"id":72,"result":{"result":{"type":"number","value":1,"description":"1"}}}
+
+[tagui] INPUT  - 
+[73] {"id":73,"method":"Runtime.evaluate","params":{"expression":"document.evaluate('//*[contains(@href,\"signin\")]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotItem(0).scrollIntoViewIfNeeded()"}}
+[tagui] OUTPUT - 
+[73] {"id":73,"result":{"result":{"type":"undefined"}}}
+
+[tagui] INPUT  - 
+[74] {"id":74,"method":"Runtime.evaluate","params":{"expression":"var result_bounds = document.evaluate('//*[contains(@href,\"signin\")]',document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotItem(0).getBoundingClientRect(); var result_xy = {x: Math.round(result_bounds.left + result_bounds.width / 2), y: Math.round(result_bounds.top + result_bounds.height / 2)}; result_xy","returnByValue":true}}
+[tagui] OUTPUT - 
+[74] {"id":74,"result":{"result":{"type":"object","value":{"x":0,"y":0}}}}
+
+[tagui] INPUT  - 
+[75] {"id":75,"method":"Input.dispatchMouseEvent","params":{"type":"mouseMoved","x":0,"y":0,"button":"none","clickCount":0}}
+[tagui] OUTPUT - 
+[75] {"id":75,"result":{}}
+
+[tagui] INPUT  - 
+[76] {"id":76,"method":"Input.dispatchMouseEvent","params":{"type":"mousePressed","x":0,"y":0,"button":"left","clickCount":1}}
+[tagui] OUTPUT - 
+[76] {"id":76,"result":{}}
+
+[tagui] INPUT  - 
+[77] {"id":77,"method":"Input.dispatchMouseEvent","params":{"type":"mouseReleased","x":0,"y":0,"button":"left","clickCount":1}}
+[tagui] OUTPUT - 
+[77] {"id":77,"result":{}}
+
+[tagui] INPUT  - 
+[78] {"id":78,"method":"Page.setDownloadBehavior","params":{"behavior":"allow","downloadPath":"/Users/dineshgovind/PycharmProjects/RecruitmentBot"}}
+[tagui] OUTPUT - 
+[78] {"id":78,"result":{}}
+
+[tagui] INPUT  - 
+[79] {"id":79,"method":"Page.navigate","params":{"url":"https://www.dice.com/jobs?q=java%20developer"}}
+[tagui] OUTPUT - 
+[79] {"id":79,"result":{"frameId":"19320C3ADB609C11E1BB50AF2FDF1333","loaderId":"D15190BAB005AD89C74EC6B6461465F7"}}
+
+[tagui] INPUT  - 
+[80] {"id":80,"method":"Runtime.evaluate","params":{"expression":"document.title"}}
+[tagui] OUTPUT - 
+[80] {"id":80,"result":{"result":{"type":"string","value":"Search Jobs | Dice.com"}}}
+
+[tagui] INPUT  - 
+[81] {"id":81,"method":"Runtime.evaluate","params":{"expression":"document.location.href"}}
+[tagui] OUTPUT - 
+[81] {"id":81,"result":{"result":{"type":"string","value":"https://www.dice.com/jobs?q=java%20developer&countryCode=US&radius=30&radiusUnit=mi&page=1&pageSize=20&language=en"}}}
+
+[tagui] INPUT  - 
+[82] {"id":82,"method":"Runtime.evaluate","params":{"expression":"document.title"}}
+[tagui] OUTPUT - 
+[82] {"id":82,"result":{"result":{"type":"string","value":"Search Jobs | Dice.com"}}}
+
+[tagui] FINISH - stopped listening
