@@ -1,0 +1,7 @@
+I have uploaded tagUI source from MacOS. You need to run following command for TagUI
+
+tagui/src/tagui mydicer.tag
+
+Please see mydicer.tag file which has commands to login and search dice without writing any code
+
+If this command is not running, try uploading windows version of TagUI from https://tagui.readthedocs.io/en/latest/setup.html and follow instructions
