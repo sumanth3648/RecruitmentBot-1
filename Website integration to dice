@@ -1,0 +1,51 @@
+import os
+import tagui as t
+import time
+import json
+import pandas as pd
+import autopy
+
+t.init()
+t.url('https://www.dice.com/dashboard/login')
+t.wait(5)
+t.type('//*[@name="email"]', 'srnt191@gmail.com')
+t.type('//*[@name="password"]', 'anuchuri1998')
+t.click('//*[@class="btn btn-primary btn-lg btn-block"]')
+t.wait(5)
+#t.type('//*[@class = "form-control ng-tns-c31-0 ng-star-inserted"]')
+#t.open(r'C:\Users\Quadrant\Documents\sample.txt')
+# t.close()
+#def job_search(self):
+f = open(r'C:\Users\Quadrant\Documents\sample.txt')
+s = f.read()
+x = json.loads(s)
+df = pd.DataFrame(x)
+#print(df.ROLL + df.LOCATION)
+for i, j in df.iterrows():
+    t.url("https://www.dice.com/home/home-feed")
+    t.wait(5)
+    t.type('//*[@class = "form-control ng-tns-c31-0 ng-star-inserted"]', j.ROLL)
+    t.wait(5)
+    t.type('//*[@id = "google-location-search"]','[clear]')
+    t.type('//*[@id = "google-location-search"]', j.LOCATION)
+    t.wait(3)
+    t.click('//*[@id = "submitSearch-button"]')
+    t.wait(10)
+    title = t.read('//*[@class = "card-title-link bold"]')
+    #t.hover('//*[@class = "d-flex justify-content-between title-container"]')
+    t.click(title)
+    t.wait(2)
+    print(title)
+    try:
+        autopy.mouse.smooth_move(200, 200)
+        t.click('//*[@id = "applybtn-2"]')
+    except :
+        print('You already applied to this job, go to next...')
+        pass
+    t.wait(5)
+    t.click('//*[@id = "upload-resume-radio"]')
+    t.wait(5)
+    t.click('//*[@type="file"')
+
+
+t.url('https://www.dice.com/dashboard/logout')
